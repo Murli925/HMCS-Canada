@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#dfe5ea"/>
+  <rect x="0" y="580" width="1200" height="320" fill="#b8bfc5" opacity="0.7"/>
+  <path d="M170 610 L280 520 L485 520 L680 610 L790 520 L1010 520 L1060 610 L1060 900 L170 900 Z" fill="#3c5161"/>
+  <path d="M220 610 L520 420 L760 420 L1010 610" fill="none" stroke="#e4d2a8" stroke-width="8"/>
+  <path d="M670 250 L880 250 L980 330 L820 330 L700 240 Z" fill="#b7853c"/>
+  <text x="600" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" fill="#14212b" letter-spacing="4">HMCS CANADA</text>
+</svg>

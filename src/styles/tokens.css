@@ -1,0 +1,40 @@
+:root {
+    --color-background: #FFFFFF;
+  --color-background-alternate: #F4F7F8;
+  --color-foreground: #102A3A;
+  --color-muted: #5E707B;
+
+  --color-accent: #0B6FA4;
+  --color-accent-soft: #D7E8EF;
+
+  --color-border: rgba(16, 42, 58, 0.14);
+  --color-surface: #FFFFFF;
+
+  --color-navy: #0B2535;
+  --color-navy-deep: #071923;
+
+  --color-blue: #0B6FA4;
+  --color-blue-light: #3C91B8;
+
+  --color-white: #FFFFFF;
+  --max-content-width: 1280px;
+  --section-spacing: clamp(4rem, 7vw, 8rem);
+  --radius: 0.25rem;
+  --shadow-soft: 0 18px 38px rgba(20, 33, 43, 0.08);
+  --font-display: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif;
+  --font-body: 'Rubik', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-muted: var(--color-muted);
+  --color-accent: var(--color-accent);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-border: var(--color-border);
+  --color-surface: var(--color-surface);
+  --max-content-width: var(--max-content-width);
+  --section-spacing: var(--section-spacing);
+  --radius: var(--radius);
+  --shadow-soft: var(--shadow-soft);
+}

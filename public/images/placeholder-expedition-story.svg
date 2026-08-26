@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#d8dfe5"/>
+  <rect x="0" y="610" width="1400" height="290" fill="#1b2d3d"/>
+  <path d="M70 640 L330 510 L720 510 L980 640 L1280 540 L1370 640 L1370 900 L70 900 Z" fill="#6f7d88" opacity="0.8"/>
+  <path d="M410 300 L670 300 L760 420 L465 420 Z" fill="#b7853c"/>
+  <path d="M530 190 L590 190 L660 260 L560 260 Z" fill="#d9bf91"/>
+  <circle cx="950" cy="260" r="110" fill="#f4efe8" opacity="0.8"/>
+  <text x="700" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#162433" letter-spacing="6">EXPEDITION</text>
+</svg>

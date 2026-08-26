@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#e9eef2"/>
+  <circle cx="200" cy="170" r="78" fill="#c89c6b"/>
+  <path d="M120 335 Q200 250 280 335 L300 500 L100 500 Z" fill="#324c62"/>
+  <rect x="85" y="210" width="230" height="24" rx="12" fill="#b7853c" opacity="0.8"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#14212b" letter-spacing="4">EWAN</text>
+</svg>

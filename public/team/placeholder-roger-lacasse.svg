@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#f0e4d7"/>
+  <circle cx="200" cy="170" r="80" fill="#d0a16d"/>
+  <path d="M120 340 Q200 250 280 340 L300 500 L100 500 Z" fill="#2c4253"/>
+  <rect x="90" y="210" width="220" height="24" rx="12" fill="#b7853c" opacity="0.8"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#14212b" letter-spacing="4">ROGER</text>
+</svg>

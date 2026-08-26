@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dfe7eb"/>
+  <rect y="360" width="800" height="240" fill="#264558"/>
+  <circle cx="620" cy="210" r="120" fill="#d9eaf4" opacity="0.9"/>
+  <path d="M90 390 C160 300, 260 280, 330 330 C410 385, 520 370, 620 330 C700 298, 760 350, 800 420 L800 600 L0 600 L0 420 C35 392, 58 410, 90 390 Z" fill="#89a6b8"/>
+  <text x="400" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0d1a24" letter-spacing="4">SCIENCE</text>
+</svg>

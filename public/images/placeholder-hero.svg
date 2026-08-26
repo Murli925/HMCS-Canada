@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#132634"/>
+      <stop offset="100%" stop-color="#4a5a67"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="0" y="620" width="1600" height="380" fill="#0e1b26" opacity="0.8"/>
+  <path d="M0 720 L1600 720 L1600 1000 L0 1000 Z" fill="#0b1823"/>
+  <path d="M180 660 L360 620 L760 620 L930 660 L1160 660 L1420 620 L1600 660 L1600 1000 L0 1000 L0 660 Z" fill="#d1d7db" opacity="0.7"/>
+  <path d="M620 310 L740 310 L820 410 L795 520 L700 520 L625 420 Z" fill="#b7853c" opacity="0.9"/>
+  <path d="M730 240 L780 240 L840 310 L740 310 Z" fill="#d7bf93" opacity="0.9"/>
+  <rect x="580" y="520" width="350" height="18" fill="#d7bf93" opacity="0.7"/>
+  <text x="800" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#f7f3ee" letter-spacing="8">HMCS CANADA</text>
+  <text x="800" y="290" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#f7f3ee" letter-spacing="10">EXPEDITION 2025</text>
+</svg>

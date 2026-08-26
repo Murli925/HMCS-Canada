@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#ece3d0"/>
+  <rect x="100" y="120" width="600" height="330" fill="#d5b98a" opacity="0.8"/>
+  <rect x="150" y="180" width="500" height="210" fill="#f6f1ea"/>
+  <path d="M200 210 H600 M200 260 H600 M200 310 H560" stroke="#1d2c39" stroke-width="8" stroke-linecap="round"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#102439" letter-spacing="4">HISTORY</text>
+</svg>

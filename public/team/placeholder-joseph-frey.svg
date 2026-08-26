@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#dfe5ea"/>
+  <circle cx="200" cy="170" r="80" fill="#c9a47a"/>
+  <path d="M130 330 Q200 250 270 330 L290 500 L110 500 Z" fill="#1b2d3d"/>
+  <rect x="70" y="210" width="260" height="24" rx="12" fill="#b7853c" opacity="0.8"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#14212b" letter-spacing="4">JOSEPH</text>
+</svg>

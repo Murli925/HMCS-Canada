@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#c8d1d8"/>
+  <rect y="360" width="800" height="240" fill="#21384a"/>
+  <path d="M120 430 L250 360 L420 360 L560 430 L680 360 L800 430 L800 600 L0 600 L0 430 Z" fill="#8394a0"/>
+  <path d="M320 180 L440 180 L520 260 L360 260 Z" fill="#b7853c"/>
+  <text x="400" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#112330" letter-spacing="4">ARCHAEOLOGY</text>
+</svg>
