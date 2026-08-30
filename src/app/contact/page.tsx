@@ -34,7 +34,15 @@ export default function ContactPage() {
             </div>
 
             <div className="rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
-              <h2 className="text-2xl font-semibold tracking-tight text-[var(--color-foreground)]">Project contact</h2>
+              <h2
+                className="text-2xl font-semibold tracking-tight text-[var(--color-foreground)]"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-easing="ease-out-cubic"
+                data-aos-once="true"
+              >
+                Project contact
+              </h2>
               <p className="mt-4 text-base leading-7 text-[var(--color-muted)]">
                 Please use the email address above for formal project or research communications. Additional contact information will be added as partnerships and support channels are confirmed.
               </p>

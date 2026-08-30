@@ -18,7 +18,15 @@ export function CTASection({ eyebrow, title, description, href, linkLabel }: CTA
               {eyebrow}
             </p>
           ) : null}
-          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h2>
+          <h2
+            className="text-3xl font-semibold tracking-tight sm:text-4xl"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-easing="ease-out-cubic"
+            data-aos-once="true"
+          >
+            {title}
+          </h2>
           <p className="mt-4 max-w-xl text-base leading-7 text-slate-200">{description}</p>
         </div>
 

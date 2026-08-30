@@ -1,54 +1,46 @@
 import Link from 'next/link'
-import { navigation } from '@/data/navigation'
+import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 
 export function Footer() {
   return (
-    <footer className="border-t border-[var(--color-border)] bg-[var(--color-foreground)] text-[var(--color-background)]">
-      <div className="mx-auto grid max-w-[var(--max-content-width)] gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_1fr] lg:px-8">
-        <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-accent-soft)]">HMCS Canada</p>
-          <h2 className="mt-3 text-2xl font-semibold tracking-tight text-[var(--color-background)]">
-            Expedition 2025
-          </h2>
-          <p className="mt-4 max-w-md text-sm leading-6 text-slate-200">
-            Bringing to life Canada’s first purpose-built warship through deepwater exploration, research, and public engagement.
-          </p>
+    <footer className="bg-[var(--color-dark)] px-4 pt-20 pb-10 text-[var(--color-background)] sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1280px]">
+        <div className="flex flex-col items-center text-center">
+          <h3 className="text-2xl font-light tracking-tight sm:text-3xl lg:text-[2rem]">
+            HMCS Canada Expedition 2025
+          </h3>
+
+          <div className="mt-8 flex items-center justify-center">
+            <a
+              href="mailto:info.hmcscanadaexpedition@gmail.com"
+              className="inline-block px-5 py-2 text-base font-bold text-[var(--color-background)] transition-opacity hover:opacity-80"
+            >
+              Email: <span className="underline font-400">info.hmcscanadaexpedition@gmail.com</span>
+            </a>
+          </div>
+
+          <div className="mt-8 flex items-center gap-4">
+<Link
+  href="#"
+  aria-label="Facebook"
+  className="transition-opacity hover:opacity-70"
+>
+  <FaFacebookF className="h-5 w-5" />
+</Link>
+<Link
+  href="#"
+  aria-label="Instagram"
+  className="transition-opacity hover:opacity-70"
+>
+  <FaInstagram className="h-5 w-5" />
+</Link>
+          </div>
         </div>
 
-        <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-accent-soft)]">Explore</p>
-          <ul className="mt-4 space-y-3 text-sm text-slate-200">
-            {navigation.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="transition-colors hover:text-[var(--color-background)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-background)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-foreground)]">
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <div className="mt-10 border-t border-white/60" />
 
-        <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-accent-soft)]">Contact</p>
-          <ul className="mt-4 space-y-3 text-sm text-slate-200">
-            <li>
-              <a href="mailto:info.hmcscanadaexpedition@gmail.com" className="transition-colors hover:text-[var(--color-background)]">
-                info.hmcscanadaexpedition@gmail.com
-              </a>
-            </li>
-            <li>
-              <a href="/contact" className="transition-colors hover:text-[var(--color-background)]">
-                Contact the project
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-[var(--max-content-width)] flex-col gap-2 px-4 py-5 text-sm text-slate-300 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-          <p>© 2025 HMCS Canada Expedition.</p>
-          <p>All rights reserved.</p>
+        <div className="mt-10 text-center text-sm text-white/80">
+          Copyright © HMCS Canada Expedition 2025 | All Rights Reserved. | Powered By Adnan Digital Solutions Pvt Limited
         </div>
       </div>
     </footer>

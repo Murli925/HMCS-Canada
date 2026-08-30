@@ -1,7 +1,9 @@
+import type { ReactNode } from 'react'
+
 type SectionHeadingProps = {
-  eyebrow?: string
-  title: string
-  description?: string
+  eyebrow?: ReactNode | string
+  title?: ReactNode | string
+  description?: ReactNode | string
   align?: 'left' | 'center'
 }
 
@@ -15,13 +17,19 @@ export function SectionHeading({ eyebrow, title, description, align = 'left' }: 
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="max-w-[18ch] text-3xl font-semibold tracking-tight text-[var(--color-foreground)] sm:text-4xl lg:text-5xl">
+      <h2
+        className="text-3xl font-semibold tracking-tight text-[var(--color-foreground)] sm:text-4xl lg:text-4xl"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-out-cubic"
+        data-aos-once="true"
+      >
         {title}
       </h2>
       {description ? (
-        <p className="mt-4 max-w-2xl text-base leading-7 text-[var(--color-muted)] sm:text-lg">
+        <div className="mt-4 max-w-2xl text-base leading-7 text-[var(--color-muted)] sm:text-lg">
           {description}
-        </p>
+        </div>
       ) : null}
     </header>
   )

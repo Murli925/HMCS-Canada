@@ -46,7 +46,13 @@ export function ResearchPageTemplate({ page }: { page: ResearchPage }) {
                       <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-[var(--color-accent)]">
                         0{index + 1}
                       </p>
-                      <h2 className="text-3xl font-semibold tracking-tight text-[var(--color-foreground)] sm:text-4xl">
+                      <h2
+                        className="text-3xl font-semibold tracking-tight text-[var(--color-foreground)] sm:text-4xl"
+                        data-aos="fade-up"
+                        data-aos-duration="700"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-once="true"
+                      >
                         {section.title}
                       </h2>
                       <p className="mt-5 text-base leading-7 text-[var(--color-muted)] sm:text-lg">{section.text}</p>
