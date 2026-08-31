@@ -47,11 +47,9 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`nav-link text-sm font-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-current focus-visible:ring-offset-2 ${
+                className={`nav-link inline-flex items-center border-b border-transparent pb-1 text-sm font-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-current focus-visible:ring-offset-2 ${
                   isActive
-                    ? scrolled
-                      ? 'text-white'
-                      : 'text-white'
+                    ? 'border-b-[1px] border-white text-white'
                     : scrolled
                       ? 'text-white/80 hover:text-white'
                       : 'text-white/80 hover:text-white'

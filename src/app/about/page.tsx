@@ -14,12 +14,13 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <PageHero
-              title="HMCS Canada"
-              image="/images/banner-2.jpg.webp"
+
+            <main>
+            <PageHero
+              title="Expedition Objectives"
+              image="/images/CGS_Canada_CN-3793_Photo-Credit.webp"
               imageAlt="HMCS Canada history"
             />
-            <main>
               <section className="py-[var(--section-spacing)]">
                 <div className="mx-auto max-w-[var(--max-content-width)] px-6 sm:px-6 lg:px-8">
                   <ImageText

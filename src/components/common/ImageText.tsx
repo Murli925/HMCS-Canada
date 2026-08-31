@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import type { ReactNode } from 'react'
+import type { CSSProperties, ReactNode } from 'react'
 
 type ImageTextProps = {
   image: string
@@ -11,13 +11,33 @@ type ImageTextProps = {
   reverse?: boolean
   actions?: ReactNode
   className?: string
+  columns?: string
 }
 
-export function ImageText({ image, alt, eyebrow, title, subtitle, description, reverse = false, actions, className = '' }: ImageTextProps) {
-  const gridClasses = ['grid gap-[30px] sm:gap-[5%] lg:grid-cols-[57%_38%] lg:items-stretch', className].filter(Boolean).join(' ')
+export function ImageText({
+  image,
+  alt,
+  eyebrow,
+  title,
+  subtitle,
+  description,
+  reverse = false,
+  actions,
+  className = '',
+  columns = '57% 38%',
+}: ImageTextProps) {
+  const gridStyle: CSSProperties | undefined = {
+    ['--image-text-columns' as string]: columns,
+  }
+
+  const gridClasses = [
+    'grid gap-[30px] sm:gap-[5%] lg:items-stretch',
+    'lg:[grid-template-columns:var(--image-text-columns)]',
+    className,
+  ].filter(Boolean).join(' ')
 
   return (
-    <section className={gridClasses}>
+    <section className={gridClasses} style={gridStyle}>
       <div
         className={`${reverse ? 'lg:order-2' : ''} overflow-hidden`}
       >

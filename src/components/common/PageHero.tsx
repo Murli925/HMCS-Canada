@@ -19,10 +19,10 @@ export function PageHero({ title, description, image, imageAlt, eyebrow, actions
           alt={imageAlt}
           fill
           priority
-          className="object-cover grayscale-[0.8] contrast-[0.9] brightness-[0.72]"
+          className="object-cover contrast-[0.9] brightness-[0.72]"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,16,16,0.18),rgba(16,16,16,0.2)_18%,rgba(16,16,16,0.52))]" />
+        {/* <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,16,16,0.18),rgba(16,16,16,0.2)_18%,rgba(16,16,16,0.52))]" /> */}
       </div>
 
       <div className="relative mx-auto flex lg:min-h-[110vh] min-h-[70vh] max-w-[var(--max-content-width)] items-end px-4 pb-10 pt-20 sm:px-6 lg:px-8 lg:pb-14">
@@ -33,7 +33,7 @@ export function PageHero({ title, description, image, imageAlt, eyebrow, actions
             </p>
           ) : null}
 
-          <h1 className="font-[var(--font-display)] text-white text-left text-[clamp(2.5rem,7vw,2.5rem)] leading-[0.85] tracking-[-0.04em] text-[#f3f0eb] text-shadow-[1px_1px_5px_rgba(0,0,0,.58)] italic sm:text-[clamp(2.5rem,7vw,2.5rem)] lg:text-[clamp(3.5rem,7vw,4rem)]">
+          <h1 className="font-[var(--font-display)] mb-8 text-white text-left text-[clamp(2.5rem,7vw,2.5rem)] leading-[0.85] tracking-[-0.04em] text-[#f3f0eb] text-shadow-[1px_1px_5px_rgba(0,0,0,.58)] italic sm:text-[clamp(2.5rem,7vw,2.5rem)] lg:text-[clamp(3.5rem,7vw,4rem)]">
             {title}
           </h1>
 
