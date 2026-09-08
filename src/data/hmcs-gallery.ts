@@ -49,7 +49,7 @@ export const expeditionGallery: GalleryItem[] = [
       'Diver Jason Cook illuminates the anchor windlass on the foredeck of HMCS Canada.',
   },
   {
-    src: '/images/gallery/8.+DSC05703.webp',
+    src: '/images/gallery/8.+DSC057013.webp',
     alt: 'A decaying fishing net, entangled on the wreck for more than a quarter century, still covers part of the engine-room roof and skylights.',
     caption:
       'A decaying fishing net, entangled on the wreck for more than a quarter century, still covers part of the engine-room roof and skylights.',
@@ -97,7 +97,7 @@ export const expeditionGallery: GalleryItem[] = [
       'Diver Propulsion Vehicles (DPVs) and breathing-gas cylinders staged for the expedition’s technical dive team. Fully equipped, each technical diver carried approximately 300 pounds (136kilograms) of equipment per dive.',
   },
   {
-    src: '/images/gallery/12.+DSC05743.webp',
+    src: '/images/gallery/12.+DSC057423.webp',
     alt: 'Dive teammates Roger Lacasse and Kelvin Davidson grasp the ascent line just before surfacing, while second team member Jason Cook decompresses below.',
     caption:
       'Dive teammates Roger Lacasse and Kelvin Davidson grasp the ascent line just before surfacing, while second team member Jason Cook decompresses below.',
@@ -127,7 +127,7 @@ export const expeditionGallery: GalleryItem[] = [
       'Brackets that once supported the starboard propeller shaft. Both the shaft and propeller are missing from the wreck site.',
   },
   {
-    src: '/images/gallery/5.+DSC05694.webp',
+    src: '/images/gallery/5.+DSC056914.webp',
     alt: 'A broken deck fitting (foreground), tangled in fishing line, within the starboard-side debris field near the pair of spare propellers (background).',
     caption:
       'A broken deck fitting (foreground), tangled in fishing line, within the starboard-side debris field near the pair of spare propellers (background).',
@@ -145,7 +145,7 @@ export const expeditionGallery: GalleryItem[] = [
       'Group photograph. Front row (left to right): Kelvin Davidson (with RCGS expedition flag), Ewan Anderson (with Explorers Club expedition flag). Back row (left to right): Rob DeProy, Guy Shockey, Joseph Frey, Roger Lacasse, Brenda Altmeier (NOAA), Matthew Lawrence (NOAA), Jason Cook.',
   },
   {
-    src: '/images/gallery/9.+DSC05714.webp',
+    src: '/images/gallery/9.+DSC057114.webp',
     alt: 'Diver Jason Cook illuminates the port-side propeller and stern of HMCS Canada at a depth of 67 m (220 feet).',
     caption:
       'Diver Jason Cook illuminates the port-side propeller and stern of HMCS Canada at a depth of 67 m (220 feet).',
@@ -169,7 +169,7 @@ export const expeditionGallery: GalleryItem[] = [
       'The stern of HMCS Canada, bent and twisted when the sinking ship struck the seafloor nearly 70 m (230 feet) below the surface. The structure is now heavily encrusted with marine life, draped with fishing line, and inhabited by multiple fish species.',
   },
   {
-    src: '/images/gallery/6.+DSC05695.webp',
+    src: '/images/gallery/6.+DSC056915.webp',
     alt: 'Schooling juvenile grunts and bogas (Haemulon sp.) with the wreck of HMCS Canada looming in the background.',
     caption:
       'Schooling juvenile grunts and bogas (Haemulon sp.) with the wreck of HMCS Canada looming in the background.',

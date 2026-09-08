@@ -181,19 +181,15 @@ export default function ProjectsPage() {
               }
             />
             <div className="sketchfab-embed-wrapper mt-4">
-              <iframe
-                title="HMCS Canada (SS Queen of Nassau)"
-                allow="autoplay; fullscreen; xr-spatial-tracking"
-                xr-spatial-tracking
-                execution-while-out-of-viewport
-                execution-while-not-rendered
-                web-share
-                src="https://sketchfab.com/models/201457d4ee034ff9a3c25a34e560bf89/embed"
-                width="100%"
-                height="500"
-              >
-                {" "}
-              </iframe>{" "}
+<iframe
+  title="HMCS Canada (SS Queen of Nassau)"
+  src="https://sketchfab.com/models/201457d4ee034ff9a3c25a34e560bf89/embed"
+  width="100%"
+  height="500"
+  allow="autoplay; fullscreen; xr-spatial-tracking; execution-while-out-of-viewport; execution-while-not-rendered; web-share"
+  allowFullScreen
+  style={{ border: 0 }}
+></iframe>
               <p
                 style={{
                   fontSize: "13px",
