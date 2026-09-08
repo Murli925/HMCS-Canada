@@ -7,6 +7,8 @@ type ButtonProps = {
   variant?: 'primary' | 'secondary' | 'ghost'
   className?: string
   ariaLabel?: string
+  target?: string
+  rel?: string
 }
 
 export function Button({ href, children, variant = 'primary', className = '', ariaLabel }: ButtonProps) {
