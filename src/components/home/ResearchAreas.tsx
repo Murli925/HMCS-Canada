@@ -8,13 +8,15 @@ const researchItems = [
   {
     title: 'Marine Archaeology',
     description: 'High-resolution 3D documentation, structural analysis, and artifact research for shipwreck preservation, archaeological exploration, and heritage conservation.',
+    imageAlt: 'Underwater scene with an old, partially buried barrel encrusted with marine life and surrounded by small fish.',
     href: '/marine-archaeology',
-    image: '/images/QONmast+light_UW-2.JPG_2.webp',
+    image: '/images/QONmast-light-UW-2.JPG',
     label: '',
   },
   {
     title: 'Marine Science & Conservation',
     description: 'Ecological assessments, invasive species monitoring, and conservation data collection for marine protection.',
+    imageAlt: 'Underwater scene with a shipwreck surrounded by fish and illuminated by a diver\'s flashlight.',
     href: '/marine-science',
     image: '/images/Queen+of+Nassau_Casserley__12.jpg_1.jpeg',
     label: '',
@@ -22,6 +24,7 @@ const researchItems = [
   {
     title: 'Historical Research & Documentation',
     description: 'We conduct archival research, ship evolution studies, and wreck identification to preserve naval heritage and history.',
+    imageAlt: 'A file copy image of a historical ship.',
     href: '/historical-research',
     image: '/images/screenshot-1742409057303.png.webp',
     label: '',
@@ -30,6 +33,7 @@ const researchItems = [
     title: 'Expedition & Diving',
     description: 'Technical diving, underwater imaging, and photogrammetry training for responsible shipwreck exploration and archaeological documentation.',
     href: '/expedition-diving',
+    imageAlt: 'Joseph Frey, a diver, in full diving gear',
     image: '/images/Joseph+Frey.jpeg',
     label: '',
   },
