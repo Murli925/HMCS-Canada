@@ -18,7 +18,7 @@ const researchItems = [
     description: 'Ecological assessments, invasive species monitoring, and conservation data collection for marine protection.',
     imageAlt: 'Underwater scene with a shipwreck surrounded by fish and illuminated by a diver\'s flashlight.',
     href: '/marine-science',
-    image: '/images/Queen+of+Nassau_Casserley__12.jpg_1.jpeg',
+    image: '/images/shooting-fish-on-shipwrek.jpg',
     label: '',
   },
   {
