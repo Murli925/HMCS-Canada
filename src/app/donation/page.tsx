@@ -7,8 +7,8 @@ import FullWidthImageSlider from '@/components/common/FullWidthImageSlider'
 import { CTASection } from '@/components/common/CTASection'
 
 export const metadata: Metadata = {
-  title: 'Support Us',
-  description: 'Support the HMCS Canada expedition and research work.',
+  title: 'Donation | Make a Difference — HMCS Canada Expedition 2025 ',
+  description: 'Support the HMCS Canada Expedition 2025 and help preserve naval heritage through donations that fund advanced underwater imaging and marine science research. ',
 }
 
 export default function DonationPage() {

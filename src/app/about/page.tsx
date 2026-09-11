@@ -7,8 +7,8 @@ import { FullWidthContent } from '@/components/common/FullWidthContent'
 import { Gallery } from '@/components/common/Gallery'
 
 export const metadata: Metadata = {
-  title: 'About',
-  description: 'Learn about the HMCS Canada expedition, its purpose, and its heritage-focused mission.',
+  title: 'Expedition Objectives | Discover Undersea Heritage — HMCS Canada Expedition 2025 ',
+  description: 'Explore HMCS Canada Expedition 2025, focusing on marine archaeology and sciences. Discover ecological insights and preserve naval history through advanced research techniques. ',
 }
 
 export default function AboutPage() {

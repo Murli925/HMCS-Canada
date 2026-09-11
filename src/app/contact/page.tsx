@@ -4,8 +4,8 @@ import { PageHero } from '@/components/common/PageHero'
 import { ImageText } from '@/components/common/ImageText'
 
 export const metadata: Metadata = {
-  title: 'Contact',
-  description: 'Contact the HMCS Canada expedition team and project organizers.',
+  title: 'Contact | Reach Out Today — HMCS Canada Expedition 2025',
+  description: 'Connect with us to learn about the HMCS Canada Expedition 2025 or explore sponsorship and partnership opportunities. Email: info.hmcscanadaexpedition@gmail.com. ',
 }
 
 export default function ContactPage() {
@@ -33,7 +33,7 @@ export default function ContactPage() {
                             Learn more about the HMCS Canada Expedition 2025, or to enquire about sponsorship and partner opportunities, please contact us via email.
                           </p>
                           <p className="lg:mb-4">
-                            <strong>Email:</strong>
+                            <strong>Email: </strong>
                             <a href="mailto:info.hmcscanadaexpedition@gmail.com" className="text-blue-500 hover:underline">
                               info.hmcscanadaexpedition@gmail.com
                             </a>

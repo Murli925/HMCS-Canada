@@ -23,16 +23,16 @@ export function Footer() {
 <Link
   href="#"
   aria-label="Facebook"
-  className="transition-opacity hover:opacity-70"
+  className="transition-opacity hover:opacity-70 bg-white p-4"
 >
-  <FaFacebookF className="h-5 w-5" />
+  <FaFacebookF className="h-5 w-5 text-xl text-black" />
 </Link>
 <Link
   href="#"
   aria-label="Instagram"
-  className="transition-opacity hover:opacity-70"
+  className="transition-opacity bg-white p-4 hover:opacity-70"
 >
-  <FaInstagram className="h-5 w-5" />
+  <FaInstagram className="h-5 w-5 text-xl text-black" />
 </Link>
           </div>
         </div>
@@ -40,7 +40,9 @@ export function Footer() {
         <div className="mt-10 border-t border-white/60" />
 
         <div className="mt-10 text-center text-sm text-white/80">
-          Copyright © HMCS Canada Expedition 2025 | All Rights Reserved. | Powered By Adnan Digital Solutions Pvt Limited
+          Copyright © HMCS Canada Expedition 2025 | All Rights Reserved. | Powered By <a className="underline !text-sm hover:opacity-80" href="https://www.adnaan.com" target="_blank" rel="noopener noreferrer">
+            Adaan Digital Solutions Pvt Limited
+          </a>
         </div>
       </div>
     </footer>

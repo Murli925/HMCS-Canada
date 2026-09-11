@@ -27,7 +27,7 @@ export function TeamPreview() {
         </div>
         <div className="text-center mt-12">
 
-          <Button href="/about" variant="secondary">View all members</Button>
+          <Button href="/our-team" variant="secondary">View all members</Button>
           
           </div>
       </div>

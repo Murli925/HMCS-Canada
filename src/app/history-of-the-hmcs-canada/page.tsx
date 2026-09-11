@@ -8,8 +8,8 @@ import { FullWidthContent } from "@/components/common/FullWidthContent";
 import { Gallery } from "@/components/common/Gallery";
 
 export const metadata: Metadata = {
-  title: "HMCS Canada",
-  description: "History and legacy of HMCS Canada.",
+  title: "HMCS Canada | Explore Naval Heritage — HMCS Canada Expedition 2025",
+  description: "Discover the historical journey of HMCS Canada, Canada's first purpose-built warship, its transformation, and upcoming expedition to its wreck site in the Florida Keys. ",
 };
 
 export default function HistoryOfTheHmcsCanadaPage() {

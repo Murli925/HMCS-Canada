@@ -5,8 +5,8 @@ import { TwoColumnContent } from "@/components/common/TwoColumnContent";
 import { ImageText } from "@/components/common/ImageText";
 
 export const metadata: Metadata = {
-  title: "Partners",
-  description: "Partners and supporters of the HMCS Canada expedition.",
+  title: "Partners | Join Our Mission — HMCS Canada Expedition 2025 ",
+  description: "Explore partnership opportunities with HMCS Canada Expedition 2025. Collaborate to highlight Canada's naval heritage and marine ecology. ",
 };
 
 export default function PartnersPage() {

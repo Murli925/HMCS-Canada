@@ -10,8 +10,8 @@ import { expeditionGallery, starboardGallery } from "@/data/hmcs-gallery";
 import { TwoColumnContent } from "@/components/common/TwoColumnContent";
 
 export const metadata: Metadata = {
-  title: "Projects",
-  description: "HMCS Canada expedition projects and research focus areas.",
+  title: "Updates | Discover and Engage Now — HMCS Canada Expedition 2025",
+  description: "Stay informed with the latest on the HMCS Canada Expedition 2025, including virtual models, educational resources, and public presentations.",
 };
 
 export default function ProjectsPage() {
@@ -339,7 +339,7 @@ export default function ProjectsPage() {
             </h2>
             <Gallery
               items={expeditionGallery}
-              columns={3}
+              columns={4}
               aspectRatio="5 / 4"
             />
           </div>
@@ -440,7 +440,7 @@ export default function ProjectsPage() {
 
             <Gallery
               items={starboardGallery}
-              columns={3}
+              columns={4}
               aspectRatio="5 / 4"
             />
 

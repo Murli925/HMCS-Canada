@@ -5,8 +5,8 @@ import { TeamAlternatingList } from '@/components/team/TeamAlternatingList'
 import { ImageText } from '@/components/common/ImageText'
 
 export const metadata: Metadata = {
-  title: 'Our Team',
-  description: 'Our team and expedition collaborators.',
+  title: 'Our Team | Explore Our Expert Team — HMCS Canada Expedition 2025 ',
+  description: 'Meet the expert team of divers and archaeologists leading the HMCS Canada Expedition 2025, committed to marine heritage and exploration. ',
 }
 
 export default function OurTeamPage() {

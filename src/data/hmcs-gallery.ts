@@ -65,6 +65,12 @@ export const expeditionGallery: GalleryItem[] = [
     caption:
       'Photogrammetry specialist and expedition diver Roger Lacasse deploys a camera-and-lighting sled to document the wreck site.',
   },
+    {
+    src: '/images/gallery/23.+G0048106.jpg',
+    alt: 'Photogrammetry specialist and expedition diver Roger Lacasse deploys a camera-and-lighting sled to document the wreck site.',
+    caption:
+      'Photogrammetry specialist and expedition diver Roger Lacasse deploys a camera-and-lighting sled to document the wreck site.',
+  },
   {
     src: '/images/gallery/15.+DSC05772.webp',
     alt: 'Roger Lacasse uses the photogrammetry sled to capture imagery of the bow of gallery Canada at a depth exceeding 60 m (200 feet).',
@@ -242,31 +248,31 @@ export const expeditionGallery: GalleryItem[] = [
 
 export const starboardGallery: GalleryItem[] = [
   {
-    src: '/images/gallery/101-HMCS-Canada_Port.webp',
+    src: '/images/starboard/101-HMCS-Canada_Port.webp',
     alt: 'Close-up of the photogrammetry model highlighting hull fracture features on the port side of HMCS Canada.',
     caption:
       'Close-up of the photogrammetry model highlighting hull fracture features on the port side of HMCS Canada.',
   },
   {
-    src: '/images/gallery/102-HMCS-Canada_Port_Bow.webp',
+    src: '/images/starboard/102-HMCS-Canada_Port_Bow.webp',
     alt: 'HMCS Canada photogrammetry model viewed from the port bow. The anchor and the vessel’s distinctive bow form are visible in the foreground.',
     caption:
       'HMCS Canada photogrammetry model viewed from the port bow. The anchor and the vessel’s distinctive bow form are visible in the foreground.',
   },
   {
-    src: '/images/gallery/103-HMCS-Canada_Starboard.webp',
+    src: '/images/starboard/103-HMCS-Canada_Starboard.webp',
     alt: 'HMCS Canada photogrammetry model viewed from the starboard side.',
     caption:
       'HMCS Canada photogrammetry model viewed from the starboard side.',
   },
   {
-    src: '/images/gallery/104-HMCS-Canada_Starboard_w_Background.webp',
+    src: '/images/starboard/104-HMCS-Canada_Starboard_w_Background.webp',
     alt: 'HMCS Canada photogrammetry model viewed from the starboard side, with expedition insignia in the foreground and a historical photograph of HMCS Canada (summer 1918) in the background.',
     caption:
       ' HMCS Canada photogrammetry model viewed from the starboard side, with expedition insignia in the foreground and a historical photograph of HMCS Canada (summer 1918) in the background.',
   },
   {
-    src: '/images/gallery/105-HMCS-Canada_Starboard_Bow.webp',
+    src: '/images/starboard/105-HMCS-Canada_Starboard_Bow.webp',
     alt: 'HMCS Canada photogrammetry model viewed from the starboard bow. The anchor and the vessel’s distinctive bow shape are visible in the foreground.',
     caption:
       'HMCS Canada photogrammetry model viewed from the starboard bow. The anchor and the vessel’s distinctive bow shape are visible in the foreground.',
